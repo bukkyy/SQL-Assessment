@@ -50,8 +50,6 @@ and crypto_subscripted_At between members_created_at and ADD(EXTRACT(DAY FROM me
 where date(members_created_at) between '2020-12-01' and '2020-12-31'
 and crypto_subscripted_At between members_created_at and ADD(EXTRACT(DAY FROM members_created_at),3)
 
--- 5
-not enough clarity on whether to do on existing queries or on a new query
 
 
 -- Question 2
